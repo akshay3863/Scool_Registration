@@ -126,10 +126,10 @@ export const StudentReducer = (state = intialState, action) => {
       return {
         ...state,
         StudentsData: state.StudentsData.filter(
-          (StudentData) => StudentData.id != action.payload
+          (StudentData) => StudentData.id !== action.payload
         ),
         filteredItems: state.filteredItems.filter(
-          (StudentData) => StudentData.id != action.payload
+          (StudentData) => StudentData.id !== action.payload
         ),
       };
     case SHORT_STUDENT_BY_DOB:

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Filter from "./filter";
 import { useSelector, useDispatch } from "react-redux";
-import { updateContact } from "../Redux/Action/TodoAction";
+// import { updateContact } from "../Redux/Action/TodoAction";
 import { deleteStudent } from "../Redux/Action/TodoAction";
 
 function Table() {
@@ -12,13 +12,13 @@ function Table() {
   useEffect(() => {
     setData(StudentsData);
   }, [StudentsData]);
-  const onUpdateValueHandler = (e, item) => {
-    const NewObject = Object.assign({
-      ...item,
-      Status: e.target.value,
-    });
-    dispatch(updateContact(NewObject));
-  };
+  // const onUpdateValueHandler = (e, item) => {
+  //   const NewObject = Object.assign({
+  //     ...item,
+  //     Status: e.target.value,
+  //   });
+  //   dispatch(updateContact(NewObject));
+  // };
 
   return (
     <div className="p-3 shadow" style={{ height: "85vh" }}>
