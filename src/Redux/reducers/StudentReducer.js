@@ -30,16 +30,6 @@ const intialState = {
     },
     {
       id: 3,
-      FullName: "Mayur solanki",
-      CollageName: "PTSCI",
-      Year: "March/2018",
-      Address: "Surat, Gujarat",
-      BranchName: "VNSGU",
-      Gender: "male",
-      DOB: "21/07/1990",
-    },
-    {
-      id: 4,
       FullName: "Anisha Polara",
       CollageName: "PTSCI",
       Year: "March/2018",
@@ -70,18 +60,9 @@ const intialState = {
       Gender: "female",
       DOB: "21/07/1970",
     },
+
     {
       id: 3,
-      FullName: "Mayur solanki",
-      CollageName: "PTSCI",
-      Year: "March/2018",
-      Address: "Surat, Gujarat",
-      BranchName: "VNSGU",
-      Gender: "male",
-      DOB: "21/07/1990",
-    },
-    {
-      id: 4,
       FullName: "Anisha Polara",
       CollageName: "PTSCI",
       Year: "March/2018",
